@@ -9,7 +9,8 @@ import IconButton from '@material-ui/core/IconButton';
 import DeleteIcon from '@material-ui/icons/Delete';
 import AddCustomer from './AddCustomer';
 import EditCustomer from './EditCustomer';
-import PersistentDrawerLeft from './Drawer';
+import { Maximize } from '@material-ui/icons';
+
 
 const Customerlist = () => {
 
@@ -110,15 +111,15 @@ const Customerlist = () => {
     ]
 
 return (
-    <div>
-        <PersistentDrawerLeft />
+    <div  style={{ height: '90%', width: '100%', margin: 'auto' }}>
+       
         <AddCustomer style={{ marginTop:20 }} addCustomer={addCustomer} />
-        <div className="ag-theme-material" style={{ height: 600, width: '90%', margin: 'auto' }}>
+        <div className="ag-theme-material" style={{ height: 800, width: '85%', margin: 'auto' }}>
             <AgGridReact
                 rowData={customerslist}
                 columnDefs={columns}
                 pagination={true}
-                paginationPageSize={10}
+                paginationPageSize={15}
                 suppressCellSelection={true}
             />
         </div>
