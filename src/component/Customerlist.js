@@ -7,9 +7,9 @@ import 'ag-grid-community/dist/styles/ag-theme-material.css';
 import Snackbar from '@material-ui/core/Snackbar';
 import IconButton from '@material-ui/core/IconButton';
 import DeleteIcon from '@material-ui/icons/Delete';
-import ButtonAppBar from './AppBar'
 import AddCustomer from './AddCustomer';
 import EditCustomer from './EditCustomer';
+import PersistentDrawerLeft from './Drawer';
 
 const Customerlist = () => {
 
@@ -111,8 +111,8 @@ const Customerlist = () => {
 
 return (
     <div>
-        <ButtonAppBar />
-        <AddCustomer addCustomer={addCustomer} />
+        <PersistentDrawerLeft />
+        <AddCustomer style={{ marginTop:20 }} addCustomer={addCustomer} />
         <div className="ag-theme-material" style={{ height: 600, width: '90%', margin: 'auto' }}>
             <AgGridReact
                 rowData={customerslist}
