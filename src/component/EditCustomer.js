@@ -54,7 +54,7 @@ const EditCustomer = (props) => {
                 <EditIcon />
             </Button>
             <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
-                <DialogTitle id="form-dialog-title">Add new customer</DialogTitle>
+                <DialogTitle id="form-dialog-title">Edit customer information</DialogTitle>
                 <DialogContent>
                     <TextField
                         margin="dense"
