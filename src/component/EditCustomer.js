@@ -34,7 +34,6 @@ const EditCustomer = (props) => {
     };
 
     const handleClose = () => {
-
         setOpen(false);
     };
 
@@ -50,7 +49,7 @@ const EditCustomer = (props) => {
 
     return (
         <div>
-            <Button  color="primary" onClick={handleClickOpen}>
+            <Button color="primary" onClick={handleClickOpen}>
                 <EditIcon />
             </Button>
             <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">

@@ -5,7 +5,8 @@ import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogTitle from '@material-ui/core/DialogTitle';
-import { UserAddOutlined } from '@ant-design/icons';
+import PeopleAltIcon from '@material-ui/icons/PeopleAlt';
+import AddCircleIcon from '@material-ui/icons/AddCircle';
 const AddCustomer = (props) => {
     const [open, setOpen] = React.useState(false);
     const [customer, SetCustomer] = useState({
@@ -38,8 +39,8 @@ const AddCustomer = (props) => {
     return (
         <div>
             <Button style={{ marginTop: 20 }} variant="outlined" color="primary" onClick={handleClickOpen}>
-                <UserAddOutlined style={{ color: "green"}} />
-      </Button>
+                <PeopleAltIcon /> <AddCircleIcon />
+            </Button>
             <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
                 <DialogTitle id="form-dialog-title">Add new customer</DialogTitle>
                 <DialogContent>

@@ -1,14 +1,14 @@
-
+import React from 'react';
 import './App.css';
-import Customerlist from './component/Customerlist';
-import PersistentDrawerLeft from './component/Drawer';
+import DrawerNavLeft from './component/DrawerNav';
 
 
 
 function App() {
   return (
     <div className="App">
-      <PersistentDrawerLeft />
+     <DrawerNavLeft />
+    
     </div>
   );
 }
