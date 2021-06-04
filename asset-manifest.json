@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Personal_Trainer/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/Personal_Trainer/static/js/main.22243bca.chunk.js",
+    "main.js.map": "/Personal_Trainer/static/js/main.22243bca.chunk.js.map",
+    "runtime-main.js": "/Personal_Trainer/static/js/runtime-main.75ec1564.js",
+    "runtime-main.js.map": "/Personal_Trainer/static/js/runtime-main.75ec1564.js.map",
+    "static/css/2.82331d13.chunk.css": "/Personal_Trainer/static/css/2.82331d13.chunk.css",
+    "static/js/2.d6f37a01.chunk.js": "/Personal_Trainer/static/js/2.d6f37a01.chunk.js",
+    "static/js/2.d6f37a01.chunk.js.map": "/Personal_Trainer/static/js/2.d6f37a01.chunk.js.map",
+    "static/js/3.f04c00db.chunk.js": "/Personal_Trainer/static/js/3.f04c00db.chunk.js",
+    "static/js/3.f04c00db.chunk.js.map": "/Personal_Trainer/static/js/3.f04c00db.chunk.js.map",
+    "index.html": "/Personal_Trainer/index.html",
+    "static/css/2.82331d13.chunk.css.map": "/Personal_Trainer/static/css/2.82331d13.chunk.css.map",
+    "static/css/main.9d5b29c0.chunk.css.map": "/Personal_Trainer/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.d6f37a01.chunk.js.LICENSE.txt": "/Personal_Trainer/static/js/2.d6f37a01.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.75ec1564.js",
+    "static/css/2.82331d13.chunk.css",
+    "static/js/2.d6f37a01.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.22243bca.chunk.js"
+  ]
+}
